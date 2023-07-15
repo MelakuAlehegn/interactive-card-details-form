@@ -175,3 +175,99 @@ button.submit {
     border-radius: 12px;
     border: none;
 }
+
+/* middel screen */
+
+@media only screen and (min-width: 606px) {
+    .card-back {
+        margin-left: 15rem;
+        align-self: center;
+    }
+
+    .card-white {
+        align-self: center;
+        margin-right: 4rem;
+    }
+
+    .form-content {
+        padding: 7rem;
+    }
+
+    .exp-day input {
+        width: 80px;
+    }
+
+    .cvc-form {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 808px) {
+    .container {
+        flex-direction: row;
+        padding: 0;
+        width: 100%;
+        height: 110vh;
+        margin: 0;
+    }
+
+    .card {
+        background: url(./assets/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 30%;
+        margin-bottom: 0rem;
+    }
+
+    .card-content {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+        transform: translateY(50%) translateX(30%);
+    }
+
+    .card-back {
+        align-self: flex-end;
+        margin-bottom: -5rem;
+    }
+
+    .card-white {
+        align-self: flex-end;
+    }
+
+    .form {
+        margin-top: 4rem;
+        margin-left: 3rem;
+        width: 50%;
+    }
+
+    input {
+        font-size: 17px;
+        padding: .7rem 1.5rem .7rem 1rem;
+        border-radius: 10px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+    }
+
+    .exp-day input {
+        width: 40px;
+    }
+
+    .date {
+        justify-content: flex-start;
+    }
+
+    .cvc-form {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .form {
+
+        margin-left: 7rem;
+    }
+}
