@@ -6,6 +6,10 @@ body {
     font-family: "Space Grotesk", sans-serif;
 }
 
+input {
+    font-family: inherit;
+}
+
 :root {
     --white: hsl(0, 0%, 100%);
     --light-grayish-violet: hsl(270, 3%, 87%);
@@ -94,6 +98,7 @@ body {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2.8px;
+    min-width: 300px;
 }
 
 /* Form Style */
@@ -257,17 +262,16 @@ button.submit {
     }
 
     .date {
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 
     .cvc-form {
-        width: 30%;
+        width: 60%;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .form {
-
         margin-left: 7rem;
     }
 }
